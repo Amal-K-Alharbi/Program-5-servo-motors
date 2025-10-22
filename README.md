@@ -82,7 +82,7 @@ for (pos = 0; pos <= 180; pos++) {
 ```
  Once 2 seconds have passed, all servos are set to 90° (center position).
  The line while (true); stops the program permanently so the motion does not restart.
-
+![](5_servo_motor.png)
  ### Note
 
 In this project, the servos are powered by the Arduino’s 5V pin,
