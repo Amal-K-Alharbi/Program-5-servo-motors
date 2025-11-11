@@ -8,12 +8,12 @@ for that we need
 |-------|-----------|------------|
 | U1 | 1 | Arduino Uno R3 |
 |SERVO1,2,3,4,5| 5 | 	Positional Micro Servo |
+|4 batteries |1 |5v|
 
-By connected five servo motors to an Arduino UNO board using a breadboard.
 
 Each servo motor is connected as follows:
   1. The signal wire is connected to Arduino pins 3, 4, 5, 6, and 7.
-  2. The power wire (VCC) is connected to the 5V rail on the breadboard.
+  2. The power wire (VCC) is connected to the batteries rail on the breadboard.
   3. The ground wire (GND) is connected to the ground rail on the breadboard.
 
 All servos share the same power and ground lines and receive control signals from the Arduino.
